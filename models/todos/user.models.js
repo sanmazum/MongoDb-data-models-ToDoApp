@@ -1,5 +1,7 @@
 import mongoose from 'mongoose';
 
+// Under Schema Method, we decide how we define the structure of data
+
 const userSchema = new mongoose.Schema(
   {
     username: {

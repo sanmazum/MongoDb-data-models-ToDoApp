@@ -1,7 +1,11 @@
-# Simple express demo
+This Documentation has the code for writing the model for a To Do App. 
 
-> Express: fast, unopinionated, minimalist web framework for Node.js
+- The App has a Number of To Do under which there are subtodos. 
 
-This project shows a simple express server serving a single HTML page and using `express.static` to serve static files.
+- What is Data Modelling? 
+Ans- Defining the structure of Data is called the modelling.( Basically how it will be stored in the database)
 
-Check out the [express documentation](https://expressjs.com/) for more information.
+
+Also learnt there, whatever you name the schema in model, it will always be stored in MongoDB with Plural name.
+
+eg. - User in User Schema model, will be stored as "Users" in MongoDB
